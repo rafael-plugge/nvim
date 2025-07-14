@@ -59,6 +59,7 @@ local plugins = {
                 "clangd",
                 "clang-format",
                 "codelldb",
+                "zls",
             },
         },
     },
