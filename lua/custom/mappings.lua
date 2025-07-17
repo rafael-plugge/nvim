@@ -37,14 +37,15 @@ M.dap = {
     },
 }
 -- LSPConfig specific mappings
-M.lspconfig = {
-    n = {
-        ["gp"] = {
-            function()
-                vim.lsp.buf.peek_definition()
-            end,
-            "LSP peek definition",
-        },
-    }
-}
+--M.lspconfig = {
+--    plugin = true,
+--    n = {
+--    }
+--}
+-- Nvim Tree specific mappings
+--M.nvimtree = {
+--    plugin = true,
+--    n = {
+--    },
+--}
 return M
