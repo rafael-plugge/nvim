@@ -36,4 +36,15 @@ M.dap = {
         },
     },
 }
+-- LSPConfig specific mappings
+M.lspconfig = {
+    n = {
+        ["gp"] = {
+            function()
+                vim.lsp.buf.peek_definition()
+            end,
+            "LSP peek definition",
+        },
+    }
+}
 return M
