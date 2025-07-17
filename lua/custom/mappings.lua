@@ -37,11 +37,15 @@ M.dap = {
     },
 }
 -- LSPConfig specific mappings
---M.lspconfig = {
---    plugin = true,
---    n = {
---    }
---}
+M.lspconfig = {
+    plugin = true,
+    n = {
+        ["go"] = {
+            "<cmd> ClangdSwitchSourceHeader <CR>",
+            "Switch between source and header file",
+        }
+    },
+}
 -- Nvim Tree specific mappings
 --M.nvimtree = {
 --    plugin = true,
